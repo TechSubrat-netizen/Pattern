@@ -1,18 +1,14 @@
-/*
-    1
-   21
-  321
- 4321
-54321
-
-
-*/  
-let res="";
+/*  1
+   12
+  123
+ 1234
+12345 */
+let res=""
 for(let i=1;i<=5;i++){
     for(let j=1;j<=5-i;j++){
         res+=" "
     }
-    for(let j=i;j>=1;j--){
+    for(let j=1;j<=i;j++){
         res+=j
     }
     res+="\n"
